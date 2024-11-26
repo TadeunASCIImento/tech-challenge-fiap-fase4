@@ -1,16 +1,20 @@
-import { Text, View } from "react-native";
-import PostListSearchContainer from "./components/PostList/PostList";
+import React from 'react';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import PostListSearchContainer from './components/PostList/PostList';
+import Login from './components/Login/Login';
+
+type RootStackParamList = {
+  Postagens: undefined;
+  Login: undefined;
+};
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <PostListSearchContainer/>
-    </View>
+      <Stack.Navigator>
+        <Stack.Screen name="Postagens" component={PostListSearchContainer} />
+        <Stack.Screen name="Login" component={Login} />
+      </Stack.Navigator>
   );
 }

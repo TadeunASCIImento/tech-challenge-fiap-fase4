@@ -90,7 +90,6 @@ const PostListSearchContainer: React.FC = () => {
       <TouchableOpacity style={styles.loginIcon} onPress={handleLoginClick}>
         <FontAwesome name="user-circle" size={24} color="black" />
       </TouchableOpacity>
-      <Text style={styles.header}>Postagens</Text>
       <TextInput
         style={styles.searchInput}
         placeholder="Digite a palavra para busca..."
