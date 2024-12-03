@@ -2,7 +2,7 @@
 
 
 ## Apresentação Gravada do funcinamento da aplicação
-[Assista a apresentação]()
+[Assista a apresentação](https://drive.google.com/file/d/1rpkQ964pw8rm-irOBQ1IqfEdgCygrbzQ/view?usp=sharing)
 
 ## Descrição
 Esta aplicação mobile de postagens foi desenvolvida utilizando React Native e permite a criação, visualização, leitura e gerenciamento de postagens. Professores têm permissões de gerenciamento completo das postagens, enquanto os alunos podem apenas visualizar e ler as postagens publicadas.
