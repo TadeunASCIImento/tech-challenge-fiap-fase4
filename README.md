@@ -1,3 +1,99 @@
+# Aplicação de Postagens - Mobile (React Native)
+
+
+## Apresentação Gravada do funcinamento da aplicação
+[Assista a apresentação]()
+
+## Descrição
+Esta aplicação mobile de postagens foi desenvolvida utilizando React Native e permite a criação, visualização, leitura e gerenciamento de postagens. Professores têm permissões de gerenciamento completo das postagens, enquanto os alunos podem apenas visualizar e ler as postagens publicadas.
+
+### Funcionalidades
+- **Alunos**:
+  - Visualizam uma lista de postagens na página principal.
+  - Podem ler uma postagem específica ao clicar no título ou conteúdo.
+  
+- **Professores**:
+  - Acessam uma área administrativa para gerenciar as postagens (login requerido).
+  - Podem criar, editar, listar e excluir postagens.
+
+## Requisitos
+Para executar a aplicação localmente, você precisará ter o seguinte instalado:
+- [Node.js](https://nodejs.org/) (versão 12 ou superior)
+- [npm](https://www.npmjs.com/) para gerenciamento de pacotes
+
+## Instalação
+
+1. **Clone o repositório**:
+    ```bash
+    git clone https://github.com/TadeunASCIImento/tech-challenge-fiap-fase4.git
+    ```
+
+2. **Acesse o diretório do projeto**:
+    ```bash
+    cd nome-do-repositorio
+    ```
+
+3. **Instale as dependências**:
+    Com npm:
+    ```bash
+    npm install
+    ```
+
+## Executando a Aplicação
+
+1. **Inicie o servidor de desenvolvimento**:
+    Com npm:
+    ```bash
+    npx expo start
+    ```
+
+2. Com o emulador do Android Studio inicializado:
+    ```
+    Pressione a tecla A para abrir o aplicativo.
+    ```
+
+
+## Fluxo da Aplicação
+
+### Visão dos Alunos:
+- Os alunos acessam a página principal e veem a lista de postagens.
+- Ao clicar em uma postagem, eles podem visualizar o conteúdo completo da postagem.
+
+### Visão dos Professores (Área Administrativa):
+- Os professores fazem login para acessar a área administrativa.
+- Na área administrativa, os professores podem:
+  - Criar novas postagens.
+  - Editar postagens existentes.
+  - Listar todas as postagens criadas.
+  - Excluir postagens.
+
+## Tecnologias Utilizadas
+- **React Native**: Biblioteca JavaScript para construção da interface do usuário.
+- **Axios**: Biblioteca para realizar requisições HTTP.
+- **React Router**: Gerenciamento de rotas da aplicação.
+- **CSS Modules**: Estilização dos componentes.
+
+
+### Scripts Disponíveis
+- `npm run start`: Inicia o servidor de desenvolviment.
+- `npm run android`: Abre o aplicativo no emulador Android.
+- `npm run web`: Abre o aplicativo no navegador web.
+
+
+## Estrutura de Pastas
+```bash
+├── app
+│   ├── components        # Componentes da aplicação   
+│   ├── index.tsx           # Componente principal
+├── .gitignore            # Arquivos e pastas a serem ignorados no Git
+├── package.json          # Dependências e scripts do projeto
+└── README.md             # Documentação do projeto
+```
+
+
+
+# Para mais informações de configuração do projeto verifique a documentação abaixo:
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,3 +144,4 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
