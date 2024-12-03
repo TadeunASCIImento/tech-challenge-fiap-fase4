@@ -48,7 +48,6 @@ const Login = () => {
 
   return (
     <View style={styles.container}>
-      <TextInput style={styles.title}>Login</TextInput>
       {error && <TextInput style={styles.error}>{error}</TextInput>}
       <TextInput
         style={styles.input}
